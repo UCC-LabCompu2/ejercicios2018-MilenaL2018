@@ -21,6 +21,9 @@
         #lista2 {
             color: blue;
         }
+        a:link, a:visited {
+            color: crimson;text-decoration: underline;
+        }
 
     </style>
 </head>
@@ -37,5 +40,6 @@
 <li>Elemento 1</li>
 <li>Elemento 2</li>
 </ul>
+<a href="https://es.wikipedia.org/wiki/Wikipedia:Portada">Necesita estudio ese cuerpo</a>
 </body>
 </html>
