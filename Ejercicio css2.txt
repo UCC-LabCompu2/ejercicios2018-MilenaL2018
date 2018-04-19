@@ -15,6 +15,13 @@
         .mi-titulo{
             text-decoration: #50ff45; font-family: "Algerian"; text-decoration: underline;
         }
+        .Mi-lista{
+             list-style-type: lower-greek;
+        }
+        #lista2 {
+            color: blue;
+        }
+
     </style>
 </head>
 <body>
@@ -22,5 +29,13 @@
 <p>Este es el primer p·rrafo</p>
 <h1 class="mi-titulo">Titulo 2</h1>
 <p>Este es el SeGuNdO P·RRaFo</p>
+<ol class="Mi-lista">
+    <li>Elemento1</li>
+    <li>Elemento2</li>
+</ol>
+<ul id="lista2">
+<li>Elemento 1</li>
+<li>Elemento 2</li>
+</ul>
 </body>
 </html>
