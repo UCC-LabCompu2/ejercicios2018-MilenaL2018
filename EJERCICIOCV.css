@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    background-image: linear-gradient(to right, #788cff, #A7BA77);
+}
+div{
+    padding: 20px; 20%;
+    margin: 30px;
+    border: 2px solid #7aBaac;
+}
+.Imagen{
+    width:  30%;
+    border-radius:70%;
+}
+span{
+    font-weight: bold;
+    color: aqua;
+}
