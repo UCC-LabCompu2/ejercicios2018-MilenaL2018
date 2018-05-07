@@ -2,40 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="formulario.css">
 </head>
 <body>
 <header>
-    <div>
         <h2>¡Elige la mejor estrategia de ataque!</h2>
-
-    </div>
 </header>
 <section>
-   <div>
-    <form>
-        <ol>
-            <li>
-                <label>Velocidad</label>
-                <br>
-                <input name="vg" type="text">
-
-            </li>
-         <li>
-             <label>Peso de nuesto héroe</label>
-             <br>
-             <input name="pr" type="text">
-
-         </li>
-            <li>
-                <label>Peso de nuestro enemigo</label>
-                <br>
-                <input name="pe" type="text">
-            </li>
-        </ol>
+    <form action="Resultado.html">
+         <div id="celdas">
+                <h1 id="titulo1">Velocidad</h1>
+                <input type="number">
+                 <h1 id="titulo2">Peso de nuesto héroe</h1>
+                <input name="pr" type="number">
+                <h1 id="titulo3">Peso de nuestro enemigo</h1>
+                <input name="pe" type="number">
+         </div>
+        <br>
+        <div id="button">
+            <button type="submit">Hit!</button>
+        </div>
     </form>
-      <button>¡A golpear!</button>
-   </div>
 </section>
 
 </body>
